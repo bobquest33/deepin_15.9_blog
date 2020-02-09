@@ -10,7 +10,7 @@ I buy few magazines in India like "Opensource ForU" and "Digit". Over last few m
 
 ## Overview
 
-As given in the [Wikipedia page](https://en.wikipedia.org/wiki/Deepin) Deepin Linux is developed by "China-based Wuhan Deepin Technology Co., Ltd" and also its desktop environment DDE, the Deepin Desktop Environment, built on Qt. This is visible in its crisp boot flash and the over expeirence of the Desktop. Deepin is unlike any other Linux desktop that I have used till now in that its UI is very crisp and can be easilly be compares with a Mac or a Windows 10. It is very much comparable with Elementary OS and in some features better.
+As given in the [Wikipedia page](https://en.wikipedia.org/wiki/Deepin) Deepin Linux is developed by "China-based Wuhan Deepin Technology Co., Ltd" and also its desktop environment DDE, the Deepin Desktop Environment, built on Qt. This is visible in its crisp boot flash and the over expeirence of the Desktop. Deepin is unlike any other Linux desktop that I have used till now in that its UI is very crisp and can be easilly compared with Mac or  Windows 10. It is very much comparable with Elementary OS and in some features better.
 
 ![](deepin-Feb-08-14-16-32.png)
 
@@ -26,7 +26,7 @@ The installation UI look and feel past the flash screen was inspired by Mac look
 
 ![](deepinFeb-08-13-19-09.png)
 
-I would say in some ways its installation process was similar to a first time Android Phone installation rather than a Linux installation. Which in some way will make many new users at home. I feel this OS will make many IPhone or Android or Chinese phone users easy to transition to a Laptop OS rather than from another Linux, Windows or Mac users and this is a big plus while using Deepin. 
+I would say in some ways its installation process was similar to a first time Android Phone installation rather than a Linux installation. Which in some way will make many new users at home. I feel this OS will make many IPhone or Android or Chinese phone users easy to transition to a Laptop OS more than for some one transitioning from another Linux, Windows or Mac  and this is a big plus while using Deepin. 
 
 ![](deepin-Feb-08-13-44-01.png)
 
@@ -34,12 +34,12 @@ I would say in some ways its installation process was similar to a first time An
 
 ## Desktop Experience
 
-Once you are done with installation and into the first time setup I best thing I like about Deepin was its theme and Desktop customization. It has to out of box setup one being Windows style start menu and another being Mac style dock setup (default). I also liked the fact that it was able to identify that I am running Deepin in a VM and messaged me to install it on a real machine to get full benefits of its features. 
+Once you are done with installation and into the first time setup the thing I like about Deepin was its theme and Desktop customization. Out of box setup options are Windows style start menu or Mac style dock setup (default). I also liked the fact that it was able to identify that I am running Deepin in a VM and messaged me to install it on a real machine to get full benefits of its features. 
 
 ![](deepin-Feb-08-14-52-49.png)
 
 
-It has icon themes and also support for Window effects which made Deepin as one of the best modern desktop experiences so far. Though not dark and not as silver as a Mac the desktop expeirence and look and feel was right in the middle. The best thing about the desktop were the momentary soud responses as Desktop became visible and the short sound notifications as I closed some activity finished. This is someting I have got used to in Mac and hate in Windows but was soothing in Deepin.
+It has icon themes and also support for Window effects which made Deepin as one of the best modern desktop experiences so far. Though not dark and not as silver as a Mac the desktop expeirence and look and feel was right in the middle. The best thing about the desktop were the momentary soud responses as Desktop became visible and the short sound notifications. This is someting I have got used to in Mac and hate in Windows but was soothing in Deepin.
 
 ![](deepin-Feb-08-14-54-29.png)
 
@@ -73,12 +73,11 @@ The out of the box Movie, Screen Records, Screen Grabber and Music apps are one 
 
 It comes with a Chrome browser and with a App store boasting a wide verity of free and paid apps Deepin can give a run for money and in some ways is better than Chrome OS. Also I liked its flie browser which looked modern and has support for most of the file types that I tested on Deepin. 
 
-![](deepin-Feb-08-14-42-17.png)
+![](deepin-Feb-08-14-50-08.png)
 
 The experience of the Deepin window manager was a cross between Mac and windows where the window manager was trying to mimic Mac the file browser was trying to mimic Windows file browser. In the end it felt more like my Android tablet expeirence than anything I have seen on a Desktop.
 
-![](deepin-Feb-08-14-50-08.png)
-
+![](deepin-Feb-08-14-42-17.png)
 
 One of the major draws for me using a Linux rather than a Mac or a Windows is the robust package manager that you get with a Linux distribution which makes the effort of installation of the many utilities a breeze. 
 
@@ -89,15 +88,15 @@ Unlike Apple or Windows store which have sparse or paid packages for your dailiy
 
 ![](deepin-Feb-08-14-30-33.png)
 
-As a developer we always strive for customizability and here also with support for 3rd party drivers, a side docking settings menu and a very intutive settings menu the experience was very modern and has made me seriously thing to switch to this distro. 
+As a developer we always strive for customizability and here also with support for 3rd party drivers, a side docking settings menu and a very intutive settings menu the experience was very modern and has made me seriously think to switch to this distro. 
 
 ![](deepin-Feb-08-14-57-27.png)
 
-Also the fact that it is hihly customizable with many themes available in its App store will surely users who want a better control over their user exprience unlike Windows 10 or Mac users.
+Also the fact that it is highly customizable with many themes available in its App store will surely users who want a better control over their user exprience unlike Windows 10 or Mac users.
 
 ## Final Thought
 
-For me Deepin was a direct compititor to Android Tablet and ahead of other Linux distros in terms of user experience. The most stand out feature for me was the crisp UI, multimedia expeirence and the WPS Office which made this distro not only a replacement for Windows 7 but rather a replacement for Mac or Windows 10 as well. Again I have not used this OS on a real hardware and am sure there would be some surprises in store. Also one point of concern for me was the copyright notice and a host of preperiotory apps that may not appel to Open Source purists and may be for uses who just want a cheaper or free alternative to their Windows or Mac. For me though this OS is a more good alternative to people who want to transtion to Laptop from Android phones or tablets as the look and feel of this OS is more akin to Android. 
+For me Deepin was a direct compititor to Android Tablet and ahead of other Linux distros in terms of user experience. The most stand out feature for me was the crisp UI, multimedia expeirence and the WPS Office which made this distro not only a replacement for Windows 7 but rather a replacement for Mac or Windows 10 as well. Again I have not used this OS on a real hardware and am sure there would be some surprises in store. Also one point of concern for me was the copyright notice and a host of preperiotory apps that may not appel to Open Source purists and may be for uses who just want a cheaper or free alternative to their Windows or Mac. For me though this OS is a more good alternative to people who want to transtion to Laptop from Android phones or tablets as the look and feel of this OS is more akin to a customized Android ROM. 
 
 
 
