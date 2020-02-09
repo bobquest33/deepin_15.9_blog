@@ -1,0 +1,332 @@
+<!DOCTYPE html><html><head>
+      <title>readme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/priyabratadash/.vscode-oss/extensions/shd101wyy.markdown-preview-enhanced-0.5.2/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h2 class="mume-header" id="distro-review-deepin-linux-159">Distro Review - Deepin Linux 15.9</h2>
+
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-13-13-07.png" alt></p>
+<h2 class="mume-header" id="background">Background</h2>
+
+<p>I buy few magazines in India like &quot;Opensource ForU&quot; and &quot;Digit&quot;. Over last few months I have accumulated a fair number of distro DVDs that come with these magazines. While going through some of these distros I came across Deepin OS. While I have read mixed reactions of this OS I personally never had tried it. Many said it as a Mac OS clone and a Chinese take on Linux OS. But it was always on my future review list. And when I got my hand on a Deepin OS 15.9 ISO I did this thorough review.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-15-06.png" alt></p>
+<h2 class="mume-header" id="overview">Overview</h2>
+
+<p>As given in the Wikipedia page Deepin Linux is developed by &quot;China-based Wuhan Deepin Technology Co., Ltd&quot; and also its desktop environment DDE, the Deepin Desktop Environment, built on Qt. This is visible in its crisp boot flash and the over experience of the Desktop. Deepin is unlike any other Linux desktop that I have used till now in that its UI is very crisp and can be easily compared with Mac or Windows 10. It is very much comparable with Elementary OS and in some features better.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-16-32.png" alt></p>
+<h2 class="mume-header" id="boot-install-experience">Boot &amp; Install Experience</h2>
+
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-13-17-10.png" alt></p>
+<p>Initially the boot experience was a bit confusing given that there were 3 options in live CD first one being Install Deepin and another being Deepin failsafe. Since I did not do my online check on how to use Deepin, I just installed on my VirtualBox VM with 50 GB virtual disk and 4 GB RAM. And it took around 15&#x2013;20 minutes to install the OS.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-13-19-30.png" alt></p>
+<p>The installation UI look and feel past the flash screen was inspired by Mac look and feel but I felt at home given my experience with Xiomi and other Chinese Mobile phones.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepinFeb-08-13-19-09.png" alt></p>
+<p>I would say in some ways its installation process was similar to a first time Android Phone installation rather than a Linux installation. Which in some way will make many new users at home. I feel this OS will make many IPhone or Android or Chinese phone users easy to transition to a Laptop OS more than for some one transitioning from another Linux, Windows or Mac and this is a big plus while using Deepin.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-13-44-01.png" alt></p>
+<h2 class="mume-header" id="desktop-experience">Desktop Experience</h2>
+
+<p>Once you are done with installation and into the first time setup the thing I like about Deepin was its theme and Desktop customisation. Out of box setup options are Windows style start menu or Mac style dock setup (default). I also liked the fact that it was able to identify that I am running Deepin in a VM and messaged me to install it on a real machine to get full benefits of its features.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-52-49.png" alt></p>
+<p>It has icon themes and also support for Window effects which made Deepin as one of the best modern desktop experiences so far. Though not dark and not as silver as a Mac the desktop experience and look and feel was right in the middle. The best thing about the desktop were the momentary sound responses as Desktop became visible and the short sound notifications. This is something I have got used to in Mac and hate in Windows but was soothing in Deepin.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-54-29.png" alt></p>
+<h2 class="mume-header" id="bundled-apps">Bundled Apps</h2>
+
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-58-13.png" alt></p>
+<p>Deepin is loaded with many apps that makes it one of the best Linux Desktops available. It comes with WPS office suits which is much better than LibreOffice and at par if not better with MS Office suit. I spent considerable time using the Writer, Presentation and Spreadsheet apps and having used WPS office in Android earlier I was very impressed with the features it provided and compatibility with different Document formats that MS Office supports.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-20-13-39.png" alt></p>
+<p>This suit alone can make Deepin as a preferable alternative to many small businesses looking to migrate from Mac or Windows.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-51-30.png" alt></p>
+<p>In recent times one of the major let downs for me has been lack of support for good multimedia apps as it used to be in earlier versions of Linux. And here I would say I had the best multimedia experience in Deepin than any other Linux distribution.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-50-59.png" alt></p>
+<p>The out of the box Movie, Screen Records, Screen Grabber and Music apps are one of the best in Linux Distributions that I have tried so far. Even in the basic graphics capabilities of a Virtual Machine the response and quality of Audio and Video was very good.</p>
+<h2 class="mume-header" id="browsing-customisability">Browsing &amp; Customisability</h2>
+
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-29-55.png" alt></p>
+<p>It comes with a Chrome browser and with a App store boasting a wide verity of free and paid apps Deepin can give a run for money and in some ways is better than Chrome OS. Also I liked its file browser which looked modern and has support for most of the file types that I tested on Deepin.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-50-08.png" alt></p>
+<p>The experience of the Deepin window manager was a cross between Mac and windows where the window manager was trying to mimic Mac the file browser was trying to mimic Windows file browser. In the end it felt more like my Android tablet experience than anything I have seen on a Desktop.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-42-17.png" alt></p>
+<p>One of the major draws for me using a Linux rather than a Mac or a Windows is the robust package manager that you get with a Linux distribution which makes the effort of installation of the many utilities a breeze.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-20-14-20.png" alt></p>
+<p>Unlike Apple or Windows store which have sparse or paid packages for your daily needs Linux distributions is packed to brim with command-line and free apps for almost every app or requirement you have. Deepin apart from its App store is built on top of Debian and hence support most of the packages supported with the Debian apt package system.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-30-33.png" alt></p>
+<p>As a developer we always strive for customisability and here also with support for 3rd party drivers, a side docking settings menu and a very intuitive settings menu the experience was very modern and has made me seriously think to switch to this distro.</p>
+<p><img src="https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-57-27.png" alt></p>
+<p>Also the fact that it is highly customisable with many themes available in its App store will surely users who want a better control over their user experience unlike Windows 10 or Mac users.</p>
+<h2 class="mume-header" id="final-thought">Final Thought</h2>
+
+<p>For me Deepin was a direct competitor to Android Tablet and ahead of other Linux distros in terms of user experience. The most stand out feature for me was the crisp UI, multimedia experience and the WPS Office which made this distro not only a replacement for Windows 7 but rather a replacement for Mac or Windows 10 as well. Again I have not used this OS on a real hardware and am sure there would be some surprises in store. Also one point of concern for me was the copyright notice and a host of preparatory apps that may not appel to Open Source purists and may be for uses who just want a cheaper or free alternative to their Windows or Mac. For me though this OS is a more good alternative to people who want to transition to Laptop from Android phones or tablets as the look and feel of this OS is more akin to a customised Android ROM.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
