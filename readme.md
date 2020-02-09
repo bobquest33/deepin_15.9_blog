@@ -4,7 +4,7 @@
 
 ## Background
 
-I buy few magazines in India like "Opensource ForU" and "Digit". Over last few months I have accumulated a fair number of distro DVDs that come with these magazines. While going through some of these distros I came across Deepin OS. While I have read mixed reactions of this OS I personally never had tried it. Many said it as a Mac OS clone and a Chinese take on Linux OS. But it was always on my future review list. And when I got my hand on a Deepin OS 15.9 ISO I did this thorough review.
+I buy few magazines in India like "Opensource ForU" and "Digit". Over last few months I have accumulated a fair number of distro DVDs that come with these magazines. While going through some of these distros I came across Deepin OS. While I have read mixed reactions of this OS I personally never had tried it. Many said it as a Mac OS clone and a Chinese take on Linux OS. But it was always on my future review list. And when I got my hand on a Deepin OS 15.9 ISO I did this thorough review. 
 
 ![](https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-15-06.png)
 
