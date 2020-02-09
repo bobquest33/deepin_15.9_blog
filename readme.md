@@ -10,7 +10,7 @@ I buy few magazines in India like "Opensource ForU" and "Digit". Over last few m
 
 ## Overview
 
-As given in the Wikipedia page Deepin Linux is developed by "China-based Wuhan Deepin Technology Co., Ltd" and also its desktop environment DDE, the Deepin Desktop Environment, built on Qt. This is visible in its crisp boot flash and the over experience of the Desktop. Deepin is unlike any other Linux desktop that I have used till now in that its UI is very crisp and can be easily compared with Mac or Windows 10. It is very much comparable with Elementary OS and in some features better.
+As given in the [Wikipedia page](https://en.wikipedia.org/wiki/Deepin) Deepin Linux is developed by "China-based Wuhan Deepin Technology Co., Ltd" and also its desktop environment DDE, the Deepin Desktop Environment, built on Qt. This is visible in its crisp boot flash and the overall experience of the Desktop. Deepin is unlike any other Linux desktop that I have used till now in that its UI is very crisp and can be easily compared with Mac or Windows 10. It is very much comparable with Elementary OS and in some features better.
 
 ![](https://raw.githubusercontent.com/bobquest33/deepin_15.9_blog/master/deepin-Feb-08-14-16-32.png)
 
@@ -97,6 +97,8 @@ Also the fact that it is highly customisable with many themes available in its A
 ## Final Thought
 
 For me Deepin was a direct competitor to Android Tablet and ahead of other Linux distros in terms of user experience. The most stand out feature for me was the crisp UI, multimedia experience and the WPS Office which made this distro not only a replacement for Windows 7 but rather a replacement for Mac or Windows 10 as well. Again I have not used this OS on a real hardware and am sure there would be some surprises in store. Also one point of concern for me was the copyright notice and a host of preparatory apps that may not be liked by Open Source purists and may be for uses who just want a cheaper or free alternative to their Windows or Mac. For me though this OS is a more good alternative to people who want to transition to Laptop from Android phones or tablets as the look and feel of this OS is more akin to a customised Android ROM.
+
+[Download Deepin](https://www.deepin.org/en/)
 
 
 
